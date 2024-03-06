@@ -52,7 +52,6 @@ int game(){
 	srand(time(NULL));
 	cout << "Yes! The Number for you to find between 0 and 100 is hidden..." << endl;
     int number = rand() % 101;
-    cout << number;
     int guess;
 		// Conditions  - Must be a whole number, handle errors
     while (true) {
